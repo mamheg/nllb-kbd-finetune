@@ -1,0 +1,26 @@
+# Основные зависимости
+torch==2.5.1
+transformers==4.38.0
+sentencepiece==0.2.0
+
+# Обработка данных
+datasets==3.2.0
+pandas==2.2.3
+numpy==2.2.0
+
+# Метрики и оценка
+sacrebleu==2.4.3
+sacremoses==0.1.1
+
+# Утилиты
+tqdm==4.67.1
+PyYAML==6.0.2
+
+# Для работы с HuggingFace Hub
+huggingface-hub==0.26.5
+protobuf
+google
+# Опциональные зависимости для разработки
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=5.0.0
